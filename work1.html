@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>背景圖片重疊</title>
+    <style>
+        div {
+            width: 200px;
+            height: 150px;
+            border: 1px solid #0000;
+            margin: 10px;
+            overflow: hidden;
+            position: relative;
+        }
+        .a img{
+            position: absolute;
+            width: 120px;
+            border: 10px solid black;
+            padding: 3px;
+        }
+        .b {
+            background-image: 
+              url("360_F_280800797_Gc8fuZG2xTDrCientHxWwuImShPsndOt.jpg"),
+              url("Screen-Shot-2023-07-31-at-11.06.40-PM.jpg");
+            background-size: 60px, 50px;
+            background-repeat: space, round;
+            border: 10px solid rgb(0, 110, 255);
+            border-style: dashed solid;
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <img src="360_F_280800797_Gc8fuZG2xTDrCientHxWwuImShPsndOt.jpg">
+        <img src="Screen-Shot-2023-07-31-at-11.06.40-PM.jpg">
+    </div>
+    <div class="b"></div>
+
+</body>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>圖片邊框效果</title>
+    <style>
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+        .image-box {
+            display: inline-block;
+            padding: 10px;
+            background: white;
+        }
+        .border-black {
+            border: 10px solid black;
+            padding: 10px;
+            background: white;
+        }
+        .border-pattern {
+            display: inline-block;
+            padding: 10px;
+            background: white;
+            border: 10px solid transparent;
+            background-image: linear-gradient(white, white), repeating-linear-gradient(45deg, blue 0, blue 20px, transparent 20px, transparent 40px);
+            background-origin: border-box;
+            background-clip: content-box, border-box;
+        }
+        img {
+            display: block;
+            width: 300px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-box border-black">
+            <img src="image.png">
+        </div>
+        <div class="image-box border-pattern">
+            <img src="!DOCTYPE html>
+            <html lang="zh">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>圖片邊框效果</title>
+                <style>
+                    .container {
+                        display: flex;
+                        gap: 20px;
+                    }
+                    .image-box {
+                        display: inline-block;
+                        padding: 10px;
+                        background: white;
+                    }
+                    .border-black {
+                        border: 10px solid black;
+                        padding: 10px;
+                        background: white;
+                    }
+                    .border-pattern {
+                        display: inline-block;
+                        padding: 10px;
+                        background: white;
+                        border: 10px solid transparent;
+                        background-image: linear-gradient(white, white), repeating-linear-gradient(45deg, blue 0, blue 20px, transparent 20px, transparent 40px);
+                        background-origin: border-box;
+                        background-clip: content-box, border-box;
+                    }
+                    img {
+                        display: block;
+                        width: 300px;
+                        height: auto;
+                    }
+                </style>
+            </head>
+            <body>
+                <div class="container">
+                    <div class="image-box border-black">
+                        <img src="爺爺的桂花園.jpg">
+                    </div>
+                    <div class="image-box border-pattern">
+                        <img src="爺爺的桂花園.jpg">
+                    </div>
+                </div>
+            </body>
+            </html>
+        </div>
+    </div>
+</body>
+</html>
